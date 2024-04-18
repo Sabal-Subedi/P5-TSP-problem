@@ -345,7 +345,7 @@ reduces the number of states to explore. Also the use of priority queue helps to
     \item Expanding on SearchState into others - Expanding the subproblem involves generating successor states and updating the priority queue. So, the time complexity is $O(n!)$
 \end{enumerate}
 \noindent The data structure used to represent the states are matrix. \\ \\
-The priority queue data structure I used is the list. Using the subproblem, we compute the hash value and it is added to priority dictionary as key and value pair.\\ \\
+The priority queue data structure I used is the dictionary. Using the subproblem, we compute the hash value and it is added to priority dictionary as key and value pair.\\ \\
 To initialize the BSSF, I used the greedy approach. The starting city is selected randomly then the next city is chosen based on the next closest edge of the neighboring cities.
 
 
